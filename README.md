@@ -6,3 +6,4 @@
 * Estudando no colégio sesi senai
 * Tenho interesse na área de tecnologia
 
+<img align="right" width="350px" style="margin-top:-20px" src="https://i.pinimg.com/564x/3e/21/c5/3e21c56557d39d3e2fdddb800f9e93cd.jpg">
