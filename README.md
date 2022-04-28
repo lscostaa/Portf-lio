@@ -1,6 +1,6 @@
 # Portf-lio
 
-<img align="right" width="200px" style="margin-top:-20px" src="https://i.pinimg.com/564x/3e/21/c5/3e21c56557d39d3e2fdddb800f9e93cd.jpg">
+<img align="right" width="250px" style="margin-top:-20px" src="https://i.pinimg.com/564x/3e/21/c5/3e21c56557d39d3e2fdddb800f9e93cd.jpg">
 
 **Neste repositório irá conter os trabalhos feitos ao longo do curso de desenvolvimento de sistemas do ensino médio. Sobre mim:**
 * 😁Meu nome é Leonardo
