@@ -1,0 +1,6 @@
+O que é ip: A palavra IP vem de Internet Protocol e é usada para duas coisas:
+define protocolos de comunicação entre dispositivos, dentre os quais estão os modelos TCP/IP (Transmission Control Protocol) e OSI (Open System Interconnection); novamente
+e o número de identificação do dispositivo conectado à Internet.
+Muitas vezes, para distinguir um nome do outro, este último também é chamado de endereço de domínio da Internet ou endereço IP. E é sobre isso que vamos falar aqui.
+Basicamente, o número do endereço IP é o “CPF” do seu computador, celular, tablet, decodificador, TV, dongle, console de videogame e assim por diante.
+É o número atribuído ao dispositivo quando ele é ligado, que chamamos de IP interno. No entanto, assim que o gadget se conecta à Internet, ele recebe um segundo número de registro, chamado de IP externo.

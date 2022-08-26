@@ -1,0 +1,10 @@
+Um servidor, em suma, é um computador com grande poder de armazenamento e processamento cuja finalidade é conectar outros computadores através de uma rede.
+
+Os servidores processam e processam solicitações feitas pelo usuário por meio de softwares, bancos de dados, envio e recebimento de informações como e-mails, envio de formulários, hospedagem de sites e muito mais.
+
+Um servidor funciona quase como um mainframe, mas em vez de realizar tarefas em nível local, o faz em larga escala, transmitindo esses resultados para diferentes computadores.
+
+O que é um servidor?
+Um servidor trabalha para combinar grandes tarefas físicas em um único "computador", o que traz mais desempenho para realizar determinadas tarefas.
+
+Se uma empresa precisa, por exemplo, de uma determinada ferramenta para fazer um trabalho, o servidor dispensa a instalação dessa ferramenta em cada máquina que precisará utilizá-la: basta que ela seja instalada no servidor onde estão todos esses computadores conectado.
