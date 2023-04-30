@@ -1,0 +1,34 @@
+<mxfile host="app.diagrams.net" modified="2023-04-10T14:28:19.887Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" version="21.1.5" etag="QaKCQQVom8_tCPqUK7Ly" type="device">
+  <diagram id="akvV-UqEgwnKXHtUUNwk" name="Página-1">
+    <mxGraphModel dx="880" dy="484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1bEc7QkhgRqQOvX4XzZd-14" value="Livros" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="140" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="1bEc7QkhgRqQOvX4XzZd-15" value="&lt;div&gt;ID (chave primária)&lt;/div&gt;&lt;div&gt;Título&lt;/div&gt;&lt;div&gt;Autor&lt;/div&gt;&lt;div&gt;Editora&lt;/div&gt;&lt;div&gt;Ano de publicação&lt;/div&gt;&lt;div&gt;ID da tabela de categorias (chave estrangeira)&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1bEc7QkhgRqQOvX4XzZd-14">
+          <mxGeometry y="30" width="140" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="1bEc7QkhgRqQOvX4XzZd-18" value="Clientes" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="40" width="140" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="1bEc7QkhgRqQOvX4XzZd-19" value="&lt;div&gt;ID (chave primária)&lt;/div&gt;&lt;div&gt;Nome&lt;/div&gt;&lt;div&gt;Endereço&lt;/div&gt;&lt;div&gt;E-mail&lt;/div&gt;&lt;div&gt;ID da tabela de pedidos (chave estrangeira)&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1bEc7QkhgRqQOvX4XzZd-18">
+          <mxGeometry y="30" width="140" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="1bEc7QkhgRqQOvX4XzZd-20" value="Categoria" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="260" width="140" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="1bEc7QkhgRqQOvX4XzZd-21" value="&lt;div&gt;ID do livro (chave primária e estrangeira)&lt;/div&gt;&lt;div&gt;Categoria&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1bEc7QkhgRqQOvX4XzZd-20">
+          <mxGeometry y="30" width="140" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="1bEc7QkhgRqQOvX4XzZd-22" value="Pedidos" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="260" width="140" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="1bEc7QkhgRqQOvX4XzZd-23" value="&lt;div&gt;ID do cliente (chave primária e estrangeira)&lt;/div&gt;&lt;div&gt;ID do livro (chave primária e estrangeira)&lt;/div&gt;&lt;div&gt;Data do pedido&lt;/div&gt;&lt;div&gt;Quantidade.&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1bEc7QkhgRqQOvX4XzZd-22">
+          <mxGeometry y="30" width="140" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
