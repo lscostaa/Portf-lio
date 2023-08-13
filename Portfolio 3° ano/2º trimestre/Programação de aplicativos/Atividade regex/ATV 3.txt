@@ -1,0 +1,9 @@
+function verificarTipoCaracter(caracter) {
+  var regex = /^[A-Za-z!@#$%^&*()_+~`|}{\[\]:;"'<,>.\/?-]+$/;
+  return regex.test(caracter);
+}
+
+var caracterDigitado = "A";
+var tipoCaracterPermitido = verificarTipoCaracter(caracterDigitado);
+
+console.log(`O caracter "${caracterDigitado}" é permitido? ${tipoCaracterPermitido}`);

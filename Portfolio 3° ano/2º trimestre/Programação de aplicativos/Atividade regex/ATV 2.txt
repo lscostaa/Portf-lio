@@ -1,0 +1,5 @@
+var texto = "Este é um exemplo de texto. Texto é uma palavra repetida.";
+var palavra = "texto";
+var regex = new RegExp("\\b" + palavra + "\\b", "gi");
+var ocorrencias = (texto.match(regex) || []).length;
+console.log(`A palavra "${palavra}" aparece ${ocorrencias} vezes no texto.`);

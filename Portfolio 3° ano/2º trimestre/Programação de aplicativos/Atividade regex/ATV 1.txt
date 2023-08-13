@@ -1,0 +1,3 @@
+var texto = "teste 12 teste";
+var textoModificado = texto.replace(/[Tt]/g, "7");
+console.log(textoModificado);

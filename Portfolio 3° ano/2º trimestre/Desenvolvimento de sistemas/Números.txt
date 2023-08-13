@@ -1,0 +1,28 @@
+function ordenarNumeros(numeros) {
+  // Cria uma cópia dos números fornecidos para não modificar o array original
+  const numerosOrdenados = [...numeros];
+
+  // Algoritmo de ordenação Bubble Sort
+  for (let i = 0; i < numerosOrdenados.length; i++) {
+    for (let j = 0; j < numerosOrdenados.length - 1 - i; j++) {
+      // Compara dois números adjacentes e os troca de posição se estiverem fora de ordem
+      if (numerosOrdenados[j] > numerosOrdenados[j + 1]) {
+        const temp = numerosOrdenados[j];
+        numerosOrdenados[j] = numerosOrdenados[j + 1];
+        numerosOrdenados[j + 1] = temp;
+      }
+    }
+  }
+
+  // Retorna os números ordenados
+  return numerosOrdenados;
+}
+
+// Array de números fornecido
+const numbers = [5, 2, 8, 1, 9];
+
+// Chama a função para ordenar os números
+const numerosOrdenados = ordenarNumeros(numbers);
+
+// Exibe os números ordenados no console
+console.log("Números ordenados:", numerosOrdenados);
